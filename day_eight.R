@@ -182,4 +182,4 @@ closest_non_connected <- combos %>%
 positions %>% 
   filter(label %in% c(closest_non_connected$list1, closest_non_connected$list2)) %>%
   pull(x) %>%
-  prod()
+  prod() # 25325968
